@@ -8,3 +8,7 @@ REQUIRED : Xampp - php version 8.0; Composer
 7. Change name database in file .env
 8. To run project : php artisan serve
 9. Access url : 127.0.0.1:8000
+
+Account Admin:
+Admin@localhost.com
+123456

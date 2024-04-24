@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 23, 2024 at 08:02 PM
+-- Generation Time: Apr 24, 2024 at 09:10 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -98,7 +98,6 @@ CREATE TABLE `menus` (
   `parent_id` int(11) NOT NULL,
   `description` text NOT NULL,
   `content` longtext NOT NULL,
-  `slug` varchar(255) NOT NULL,
   `active` int(11) NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
@@ -203,7 +202,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Admin', 'Admin@localhost.com', NULL, '$2y$10$/dmjpkrwpRjAbzVvS2QZN.Y0L/hS1MRnpRAjlm9yL1tOhX0Nax6si', NULL, '2024-04-23 16:13:42', '2024-04-23 16:13:42');
+(1, 'Admmin', 'Admin@localhost.com', NULL, '$2y$10$tXkM0poyrKei9Y0hxw5a/.VYnqf0OecPHuXxJbSrlxDIloOUCfvI6', NULL, '2024-04-24 19:05:58', '2024-04-24 19:05:58');
 
 --
 -- Indexes for dumped tables
@@ -240,8 +239,7 @@ ALTER TABLE `jobs`
 -- Indexes for table `menus`
 --
 ALTER TABLE `menus`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `menus_slug_unique` (`slug`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `migrations`
@@ -306,7 +304,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `menus`
 --
 ALTER TABLE `menus`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -330,7 +328,7 @@ ALTER TABLE `sliders`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables
