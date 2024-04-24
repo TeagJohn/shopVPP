@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88a7cfff-919c-455b-9970-b014cc48d765" name="Changes" comment="" />
+    <list default="true" id="88a7cfff-919c-455b-9970-b014cc48d765" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/public/template/images/banner_vpp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/public/template/images/banner_vpp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/public/template/images/icons/HN-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Source/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Source/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/app/Http/Services/Menu/MenuService.php" beforeDir="false" afterPath="$PROJECT_DIR$/Source/app/Http/Services/Menu/MenuService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/app/Models/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Source/app/Models/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Source/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/database/migrations/2021_05_26_121348_create_menus_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Source/database/migrations/2021_05_26_121348_create_menus_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/resources/views/admin/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Source/resources/views/admin/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Source/resources/views/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Source/resources/views/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Source/resources/views/home.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,6 +189,7 @@
       <workItem from="1713883625045" duration="50000" />
       <workItem from="1713895462828" duration="270000" />
       <workItem from="1713982640258" duration="35000" />
+      <workItem from="1713986293694" duration="276000" />
     </task>
     <servers />
   </component>

@@ -37,7 +37,7 @@ class MenuService
                 'description' => (string)$request->input('description'),
                 'content' => (string)$request->input('content'),
                 'active' => (string)$request->input('active'),
-                'slug' => Str::slug('laravel framework 5', '-')
+//                'slug' => Str::slug((string)$slug_title, '-')
             ]);
 
             Session::flash('success', 'Tạo Danh Mục Thành Công');
